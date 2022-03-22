@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerStats"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background_vertical_gradient_one">
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to home"
+        android:textSize="20sp"
+        android:onClick="back"/>
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="50sp"
+        android:fontFamily="@font/arcade_classic"
+        android:layout_marginVertical="15dp"/>
+
+    <TextView
+        android:id="@+id/agreedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have agreed with 0 opinions"
+        android:textSize="20sp"
+        android:layout_marginVertical="15dp"/>
+
+    <TextView
+        android:id="@+id/disagreedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have disagreed with 0 opinions"
+        android:textSize="20sp"
+        android:layout_marginVertical="15dp"/>
+
+    <TextView
+        android:id="@+id/totalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have voted on 0 total opinions"
+        android:textSize="20sp"
+        android:layout_marginVertical="15dp"/>
+
+    <Button
+        android:id="@+id/changeUsernameButton"
+        android:layout_marginTop="60dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Username"/>
+
+    <Button
+        android:id="@+id/changePasswordButton"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"/>
+
+    <Button
+        android:id="@+id/clearAccountButton"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear account data"/>
+
+    <Button
+        android:id="@+id/deleteAccountButton"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete account"
+        android:textColor="@color/red"/>
+
+</LinearLayout>

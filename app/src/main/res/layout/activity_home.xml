@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:background="@drawable/background_vertical_gradient_two">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:fontFamily="@font/arcade_classic"
+            android:id="@+id/welcomeUser"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Welcome, "
+            android:textSize="30sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:onClick="playerStatsSender"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="View / edit my account"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/medium_blue"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:text="If you are ready to start disagr.. I mean, agreeing with opinions, click play to start!"/>
+
+        <Button
+            android:onClick="play"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Play"/>
+
+        <Button
+            android:onClick="back"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textColor="@color/red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enjoying the app? Please let us know what you think! Feedback would be greatly appreciated in a review! Below is a button that will allow you to rate our app and give us some feedback (you won't be redirected, you can rate us right from our app). Feedback really helps us make what is best for our users so please let us know what you think so we can make improvements! Thank you -ToxicFlame427, the developer"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/reviewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate and review our app!"/>
+
+    </LinearLayout>
+
+</LinearLayout>

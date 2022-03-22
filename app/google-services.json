@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "592015867179",
+    "firebase_url": "https://opinionator-7654f-default-rtdb.firebaseio.com",
+    "project_id": "opinionator-7654f",
+    "storage_bucket": "opinionator-7654f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592015867179:android:f71ff346df44739fabd96e",
+        "android_client_info": {
+          "package_name": "com.toxicflame427.opinionator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592015867179-hqai1kscgva3t33nkust8qqo8k9dm4cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTUbdlOykG1Uq5e9eyPGCd-VnG9yis60k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592015867179-hqai1kscgva3t33nkust8qqo8k9dm4cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

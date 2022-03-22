@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Custom color palette-->
+    <color name="red">#E63946</color>
+    <color name="light_red1">#F3686D</color>
+    <color name="tan">#F1FAEE</color>
+    <color name="light_blue">#A8DADC</color>
+    <color name="medium_blue">#457B9D</color>
+    <color name="darker_blue">#1D3557</color>
+    <color name="light_green1">#4AEA7A</color>
+
+    <!--Colors for the background gradient of the home page-->
+    <color name="blue1">#A8DADC</color>
+    <color name="blue2">#0044FF</color>
+    <color name="blue3">#002A8A</color>
+
+    <!--Red gradient colors for the splash screen-->
+    <color name="redg1">#ffbaba</color>
+    <color name="redg2">#ff5252</color>
+    <color name="redg3">#a70000</color>
+
+    <!--Rainy Ashville Gradient Colors-->
+    <color name="ashvilleblue">#a6c1ee</color>
+    <color name="ashvillepink">#fbc2eb</color>
+    <color name="ashvillegreen">#d4fc79</color>
+</resources>
